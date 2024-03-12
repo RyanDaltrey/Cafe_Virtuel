@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#block_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(224, 173, 132);
+    padding: 5px 0px 0px 0px;
+}
+
+#nom_du_cafe {
+    letter-spacing: 6px;
+}
+
+#image_cafe_acceuillante_arriere_plan {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
