@@ -17,6 +17,10 @@
     letter-spacing: 6px;
 }
 
+#nom_du_cafe:hover{
+    cursor: pointer;
+}
+
 #image_cafe_acceuillante_arriere_plan {
     margin: auto;
     display: flex;
