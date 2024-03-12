@@ -27,3 +27,15 @@
     justify-content: center;
 }
 
+#titre_nos_boissons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    letter-spacing: 6px;
+}
+
+#content_boissons_menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
