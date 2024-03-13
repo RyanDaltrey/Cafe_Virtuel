@@ -134,7 +134,7 @@
     font-weight: bold;
 }
 
-#selection_boissons , #selection_taille:hover{
+#selection_boissons,#selection_taille:hover{
     cursor: pointer;
     box-shadow: 1px 1px;
     border-color: rgb(64, 34, 24);
@@ -144,7 +144,8 @@
     margin: 10px;
     padding: 5px;
     letter-spacing: 2px;
-    border:none
+    border:none;
+    margin-bottom: 30px;
 }
 
 #submit:hover{
@@ -153,4 +154,22 @@
  background-color: rgb(225, 221, 221);
  padding: 10px;
  cursor: pointer;
+}
+
+#block_ambiance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ambiance_photo_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1px;
+    width: 150px;
+}
+
+.ambiance_photo_text:hover{
+    
 }
