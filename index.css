@@ -110,3 +110,47 @@
 .prix_coca{
     margin-left: 95px;
 }
+
+#titre_formulaire{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    letter-spacing: 6px;
+}
+
+#content_form{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selection_boissons , #selection_taille{
+    width: 250px;
+    margin: 5px;
+}
+
+.label_titre{
+    font-weight: bold;
+}
+
+#selection_boissons , #selection_taille:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px;
+    border-color: rgb(64, 34, 24);
+}
+
+#submit{
+    margin: 10px;
+    padding: 5px;
+    letter-spacing: 2px;
+    border:none
+}
+
+#submit:hover{
+ border: 2px;
+ border-radius: 2px;
+ background-color: rgb(225, 221, 221);
+ padding: 10px;
+ cursor: pointer;
+}
