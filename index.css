@@ -30,18 +30,19 @@
 #titre_nos_boissons{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 30px;
     letter-spacing: 6px;
 }
 
 #content_boissons{
-    margin: 30px 50px 0px 50px;
+    margin: 15px 50px 0px 50px;
     display: flex;
     justify-content: space-around
 }
 
 #image_coca{
     width: 130px;
+    margin-bottom: 20px;
 }
 
 #image_chocolat_chaud , #image_tea , #image_cafe , #image_smoothie ,#image_coca {
@@ -51,16 +52,61 @@
     padding-bottom: 15px;
 }
 
-#discription_des_boissons{
-    display: flex;
-    justify-content: space-around;
-}
-
 .boisson_et_son_nom{
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(64, 34, 24);
+    border-radius: 3px;
+    color: white;
 }
 
+.boisson_et_son_nom:hover{
+    cursor:pointer;
+}
 
+.nom_uniquement{
+    letter-spacing: 6px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.taille_de_boisson_chocolat , .taille_de_boisson_cafe, .taille_de_boisson_smoothie{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.prix_des_boissons{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.taille_de_boisson_tea{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.taille_de_boisson_coca{
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.prix_tea{
+    margin-left: 85px;
+}
+
+.prix_coca{
+    margin-left: 95px;
+}
