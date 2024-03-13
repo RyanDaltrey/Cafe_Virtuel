@@ -40,15 +40,27 @@
     justify-content: space-around
 }
 
+#image_coca{
+    width: 130px;
+}
+
 #image_chocolat_chaud , #image_tea , #image_cafe , #image_smoothie ,#image_coca {
     margin-left:  5px;
     margin-right: 5px;
     border-radius: 4px;
+    padding-bottom: 15px;
 }
 
 #discription_des_boissons{
     display: flex;
     justify-content: space-around;
+}
+
+.boisson_et_son_nom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
